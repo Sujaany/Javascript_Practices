@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Page</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+ 
+        <!-- add external js file -->
+        <!-- <script src="javascript.js"></script> -->
+    </head>
+    <body>
+        <h1>Learn JavaScript</h1>
+ 
+        <!-- add internal js file -->
+        <script>
+            // alert("hi welcome to my page");
+ 
+            // variable Declaration
+            //  letters, numbers, underscore,dollarsign
+            //  case sensitive refer var name n, N
+ 
+            var no =1;
+            var n ="invicta";
+            var N ='sujaany';
+            
+            // styles of variable
+            // partial case
+            var MyNameIs = "sujaany";
+ 
+            // camel case
+            var myNameis = "suja"
+ 
+            // underscore
+            var my_name_is = "sujaah"
+ 
+            // array declaration
+            var animal= ["tiger","lion","cat",5]
+            animal[3] ="dog";
+            no.push("hii"); 
+            
+            // alert(animal[2]);
+            // alert(animal.length);
+		// alert(animal.reverse());
+            alert(n);
+ 
+        </script>
+    </body>
+</html>

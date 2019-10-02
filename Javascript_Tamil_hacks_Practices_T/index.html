@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Page</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+   <script>
+// array declaration
+    var test =["a","b",5];
+    test[0]="hello";
+
+    test.push("elephant");
+
+    // alert(test.length);
+    // alert(test.reverse());
+
+    console.log("hi");
+    // LOOP declaration
+
+    // for(var i =15; i>1; i--){
+    //     console.log(i);
+        
+    // }
+
+        // while loop
+    // var j=10;
+    // while(j<18)
+    // {
+    //     console.log(j);
+    //     j++
+    // }
+
+    // foreach Loop
+    // var num =[1,3,5,7];
+    // num.forEach(function(num1){
+    //     console.log(num1);
+    // })
+
+    // condititons
+    // = assingn value a =2;
+    // == check value if(i ==1)
+    // === data type matching change data type not working if(i ==="hello")
+    
+    // var b1 =10
+    // var b2 =11
+    // if(b1==b2){
+    //     console.log("true")
+    // } else
+    // {
+    //     console.log("false")
+    // }
+
+    // switch statement
+    // var color ="orange";
+    // switch(color){
+    //     case "red":
+    //         console.log("i like red");
+    //         break;
+    //     case "green":
+    //         console.log("i like green");
+    //         break;
+    //     case "blue":
+    //         console.log("i like blue");
+    //         break;
+    //     default:
+    //         alert("please choose color");
+    // }
+
+    // Object literals
+    var person = {
+        fname :"sujaany",
+        lname :"sundara",
+        age : 25,
+        children:["raj","ram"],
+
+        // embedded object
+        address:{
+            street:3,
+            city:"mulliyawalai",
+            street:"mullaitivu",
+        },
+    }
+    // console.log(person.fname+ "  " +person.address.city);
+    console.log(person.children[0]);
+
+    // object constructures
+    var animal1 = new Object();
+    animal.name1 ="tiger";
+    animal.type1="killer";
+    animal.color1="orange";
+
+    animal.name2 ="rabbit";
+    animal.type2="soft";
+    animal.color2="white";
+
+    function animal(name3,type3,color3){
+        this.name3=name3;
+        this.type3 =type3;
+        this.color3=color3;
+    }
+    var tiger1 =new animal("tiger","killer","orange")
+
+    var rabbit = new animal("rabbit","soft","black")
+    console.log(tiger1);
+
+
+
+    </script>
+    </body>
+</html>
